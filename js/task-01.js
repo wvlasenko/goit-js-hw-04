@@ -7,9 +7,11 @@ const account = {
   changeDiscount(value) {
     this.discount = value;
   },
+
   showOrders() {
     return this.orders;
   },
+
   addOrder(cost, order) {
     this.balance -= cost;
     this.orders.push(order);
